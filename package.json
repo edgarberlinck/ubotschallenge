@@ -1,0 +1,32 @@
+{
+  "name": "ubotschallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "link-module-alias",
+    "test": "mocha --require esm"
+  },
+  "_moduleAliases": {
+    "~": "."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgarberlinck/ubotschallenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgarberlinck/ubotschallenge/issues"
+  },
+  "homepage": "https://github.com/edgarberlinck/ubotschallenge#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.0.1"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "link-module-alias": "^1.2.0"
+  }
+}
